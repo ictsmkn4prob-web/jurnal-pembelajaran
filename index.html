@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Jurnal Sekolah Cepat</title>
+</head>
+<body>
+    <h1>Aplikasi Jurnal Guru</h1>
+    
+    <!-- Form Simpan Jurnal -->
+    <div>
+        <h3>Isi Jurnal</h3>
+        <input type="text" id="namaGuru" placeholder="Nama Guru"><br><br>
+        <input type="text" id="materi" placeholder="Materi yang diajarkan"><br><br>
+        <button onclick="simpanJurnal()">Simpan Jurnal</button>
+        <p id="statusPesan"></p>
+    </div>
+
+    <!-- Tombol Ambil Data -->
+    <hr>
+    <button onclick="ambilDataSiswa()">Tampilkan Data Siswa</button>
+    <pre id="tampilData"></pre>
+
+    <script src="app.js"></script>
+</body>
+</html>
