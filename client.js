@@ -304,9 +304,7 @@ function renderStatSiswaRows(list) {
   return list.map(function (s) {
     const pctL = s.total > 0 ? Math.round((s.lakiLaki / s.total) * 100) : 0;
     return '<tr><td>' + s.kelas + '</td><td>' + (s.jurusan || '-') + '</td><td>' + s.total + '</td>' +
-      '<td>' + s.lakiLaki + '</td><td>' + s.perempuan +
-      '<div class="gender-bar"><div class="l" style="width:' + pctL + '%"></div><div class="p" style="width:' + (100 - pctL) + '%"></div></div>' +
-      '</td></tr>';
+      '<td>' + s.lakiLaki + '</td><td>' + s.perempuan +'</td></tr>';
   }).join('');
 }
 
