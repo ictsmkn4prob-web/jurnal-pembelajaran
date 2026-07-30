@@ -3,7 +3,7 @@
    Ganti dengan Web App URL hasil Deploy Apps Script Anda, contoh:
    'https://script.google.com/macros/s/AKfycbzZeQqlCZkAFARWX9IxLeFG1xHN9CUBMmrdnyAF-kndY2tKN0Q51-ZCww3yYM0oydPnsQ/exec'
 ================================================================== */
-const API_URL = 'GANTI_DENGAN_URL_WEB_APP_APPS_SCRIPT_ANDA';
+const API_URL = 'https://script.google.com/macros/s/AKfycbzN835gI0WxjzIQB1-pZWz00DUSFkbQyn6gN7ZOsseLz-gPZu56dAFOtWZOoNDtIwrUUQ/exec';
 
 // Semua komunikasi ke backend lewat sini. Pakai Content-Type text/plain
 // (bukan application/json) supaya browser TIDAK mengirim preflight OPTIONS -
